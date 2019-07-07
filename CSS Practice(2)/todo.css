@@ -1,0 +1,24 @@
+body{
+    background: orange;
+}
+
+li{
+    border: 2px solid red;
+}
+
+#special{
+    color: ghostwhite;
+    background: black;
+    
+}
+
+.highlight{
+    background: green;
+}
+
+.lowlight{
+    background: blueviolet;
+    text-decoration: line-through;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line */
