@@ -1,0 +1,33 @@
+h1{
+    color: rgba(191,242,123.9, .9);
+    /* border-width: 5px;
+    border-color: rgba(242,191,123.9, .9);
+    border-style: solid; */
+
+    border: 5px dashed purple;
+}
+
+/* Borders:
+width:
+color:
+style:  solid-dashed*/
+
+
+li{
+    color: darkblue;
+}
+
+h4{
+    background: rgb(255,100,70);
+}
+
+h6{
+    color: rgb(123, 98, 23);
+}
+
+
+
+body{
+    background: url(https://pixabay.com/get/55e2d4414252af14f6d1867dda6d49214b6ac3e45657734c752872d392/wood-3212803_1920.jpg);
+    background-repeat: no-repeat;
+}
