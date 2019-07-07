@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML FORMS LOGIN</title>
+
+    </head>
+
+    <body>
+        <h1>HTML FORMS</h1>
+    <form action = "http://facebook.com" method="get">
+
+        <label for ="username">Username: </label>
+            <input id = "username" type="text" placeholder = "Username" required> 
+        <!-- ^If type == email, email will be required to log in -->
+        
+        <label for ="password"> Password: </label>
+            <input id = "password" placeholder = "password" minlength="8" required>
+        
+        <!-- <input type="color" > -->
+        
+        <!-- <input type="radio"> -->
+        
+        <!-- <input type="button"> -->
+        <button> submit </button>
+    </form>
+    
+    <p> do you prefer cats or dogs?</p>
+    <form>
+        <label for ="dogs"> Dogs: </label>
+        <input name="petchoice" id="dogs" type ="radio" value="dogs">
+
+        <label for="cats"> Cats:</label>
+        <input name ="petchoice" id = "dogs" type ="radio" value="cats">
+
+    <p> Whats your current mood? </p>
+    <select name = "mood?">
+        <option value="happy"> :) </option>
+        <option value="pokerface"> :| </option>
+        <option value="sad" > :( </option>
+    </select>
+        <button> GO! </button>
+    </form>
+
+
+
+
+    </body>
+</html>
