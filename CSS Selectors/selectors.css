@@ -1,0 +1,48 @@
+/* Element selector 
+
+ li
+{
+
+} */
+
+/* class selector 
+
+ .hello{
+
+} */
+
+/* ID selector 
+ #worfk
+{
+
+} */
+
+/* Adjacent selector- selects everything after the first mentioned type */
+h3 + ul
+{
+    border: 1px solid goldenrod;
+}
+
+/* Star selector */
+
+*{
+    border: 1px solid turquoise;
+}
+
+/* Descendant selector */
+li a{
+    color: palevioletred;
+}
+
+/* Attribute selector-- is a way to select elements based off of any attribute */
+a[href="http://www.google.com"]
+{
+    background-color: blueviolet;
+}
+
+/* nth of type */
+li:nth-last-of-type(3)
+/* ^^^ Everythird Li ul:nth-of-type(3) */
+{
+    background: purple;
+}
