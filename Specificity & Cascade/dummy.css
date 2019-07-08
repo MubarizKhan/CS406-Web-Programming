@@ -1,0 +1,68 @@
+
+body{
+    color: gold;
+}
+
+ul{
+    color: blue;
+}
+p{
+    color: green;
+}
+
+li{
+    color: orange; 
+    /* Inherited by body & ul both crossed off as li is told to be orange here */
+}
+
+.highlight{
+    color: mediumaquamarine;
+}
+
+#special{
+    color: khaki; 
+    /* special > class
+    
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+    
+    */
+}
+
+
+/* 
+
+---------------IN SPECIFICITY ---------------------------
+Type selectors
+li{
+
+}
+
+
+li a
+{
+
+}
+
+li + a{
+}
+
+Class , Attribute & psuedo-class slectors
+
+
+.hello
+{
+
+}
+
+input[type = "text"]
+{
+
+}
+
+ID selectors
+{
+    #hello
+}
+
+
+*/
