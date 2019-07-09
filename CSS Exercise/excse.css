@@ -1,0 +1,55 @@
+/* Style this according to the following instructions. */
+
+/* Give the <body> element  a background of #bdc3c7 */
+
+body{
+    background: #bdc3c7;
+}
+/* Make the h1 element #9b59b6 */
+h1{
+    color: #9b59b6;
+}
+/* make all the h2 elements orange */
+h2
+{
+    color: orange;
+}
+/* Make all the <li> elements blue */
+
+li{
+    color: blue;
+}
+
+/* Change all the backgrounds on every paragraph to be yellow */
+
+p{
+    background: yellow;
+}
+/* Make all inputs have a 3px red border */
+input{
+    border: 3px solid red;
+}
+/* give evrything with the class hello a white background */
+.firstclass
+{
+    background: whitesmoke;
+}
+/* give the element with id 'special' a 2px solid blue border(pick your own rgb blue) */
+#special{
+    border: 2px solid rgb(.34, 182, 255);
+}
+/* Make all the <p>'s that are nested inside of divs 25px font(font-size:  25px*/
+
+/* Make only inputs with type 'text' have a grey background */
+div p{
+    background: grey;
+}
+/*  Give both <p>'s inside the 3rd <div> a coral background  */
+div:nth-of-type(3) p{
+    background: coral;
+}
+/* Give the 2nd <p> inside the 3rd <div> a white 5px border */
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 5px solid white;
+
+}
