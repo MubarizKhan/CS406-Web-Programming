@@ -1,0 +1,28 @@
+ 
+ /* Content- Width & Height */
+ p{
+     /* height: 200px; */
+     width: 50%;
+ }
+
+ /* Border */
+p{
+    border: 2px solid blueviolet;
+}
+ 
+ /* Padding */
+p{
+    /* padding: 10px; */
+    padding-bottom: 20px;
+}
+
+/* Margin */
+
+p{
+    /* margin: 50px; */
+    /* margin: top right bottom left; */
+    margin: 20px 40px 50px 75px;
+    /* margin: 0 auto 0 auto; */
+    margin: 0 auto;
+}
+
