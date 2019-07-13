@@ -1,0 +1,33 @@
+5 Priminitive data-types in Javascript
+
+Numbers
+
+-10
+9.75
+24
+
+4 + 10---> Arithmetic
+
+Modulo
+14 % 2--> 0
+15 % 11---> 4 
+
+
+//strings
+"hello"
+
+"hello" + "world" <----- String concatenation--> helloworld
+"cuslex".length--> 6
+"cuslex"[0]--> "c"
+"cuslex"[3]---> "l"
+
+//Boolean
+true
+false
+
+//null & undefined--> the type of variables which have been declared & not initialized are undefined
+var name;
+var age; //undefined
+
+var myname = "Mubariz";
+myname = null;
