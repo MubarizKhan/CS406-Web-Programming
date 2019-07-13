@@ -1,0 +1,34 @@
+body{
+    background: url("7.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Russo One', sans-serif;
+    
+
+
+
+}
+h1{
+    font-family: 'Russo One', sans-serif;
+    /* color: bl */
+}
+
+h3{
+    font-family: 'Russo One', sans-serif;
+}
+
+.navbar{
+    font-family: 'Russo One', sans-serif;
+}
+.xtc{
+    font-family: 'Russo One', sans-serif;
+}
+
+
+
+#content{
+
+    text-align: center;
+    padding-top: 25%;
+    /* color: yellow; */
+}
