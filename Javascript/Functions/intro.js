@@ -16,7 +16,7 @@ function square(num)
 
 function greet(user1, user2, user3)
 {
-    arr[3] = {user1, user2, user3};
+    var arr = {user1, user2, user3};
     for(var i = 0; i < 3; i++)
     {
         console.log(arr[i]);
