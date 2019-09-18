@@ -1,0 +1,64 @@
+h1
+{
+    color: whitesmoke;
+    
+    margin-left: 250px;
+    font-family: 'Lobster', cursive;
+
+
+}
+.otw
+{
+    width : 350px;
+    margin-left: 250px;
+
+}
+
+p{
+    color: whitesmoke;
+}
+
+.btn-primary
+{
+    margin-left: 125px;
+}
+
+
+#space
+{
+    margin-left:  25px;
+}
+
+
+
+body
+{
+    background: url("o.jpg");
+    background-size: cover;
+    /* color: grey; */
+    /* background-color: rgba(190,50,190,67); */
+    /* background-position: center;
+    
+    background-image: linear-gradient(3%);
+     background-size: cover; */
+} 
+
+img
+{
+    height: 95px;
+    width: 90px;
+}
+
+.xtc
+{
+    /* padding-left: 200px;
+    padding-right: 150px; */
+    height: 350px;
+    width: 800px;
+  background-color:rgba(25,10,30,0.6);
+  
+  margin-left: 300px; 
+  /* margin-bottom: 200px;  */
+ margin-top: 150px;
+ border-radius: 25px;
+}

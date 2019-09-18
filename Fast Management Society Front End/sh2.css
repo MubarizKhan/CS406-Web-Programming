@@ -1,0 +1,85 @@
+#space
+{
+    margin-left:  25px;
+}
+
+img
+{
+    height: 95px;
+    width: 90px;
+}
+
+.l{
+    background-image: url("17098213_1442449595787898_491091551766084222_n.jpg");
+    background-size: cover;
+    /* background-color: black; */
+}
+
+.post
+{
+    padding-left: 250px;
+    /* height: 00px; */
+    padding-top: 55px;
+    padding-right: 150px;
+    
+}
+
+.lie
+{
+    border-radius: 25px;
+    background-color: rgba(25,6,128,0.3);
+    height: 450px;
+    width: 800px;
+  /* background-color:rgba(25,10,30,0.6); */
+  
+  margin-left: 250px; 
+  /* margin-bottom: 200px;  */
+ margin-top: 45px;
+}
+
+#b1
+{
+    /* padding-top: 50px; */
+    /* padding-right: 100px; */
+    /* padding-left: 50px; */
+    margin-right: 100px;
+    margin-left: 350px;
+    
+}
+
+.tf
+{
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(25,6,108,0.1);
+    margin-top: 50px;
+
+}
+
+.btn 
+{
+    margin-left: 350px;
+}
+
+.form-group
+{
+    background-color: rgba(87, 69, 92, 0.1)
+}
+.btn-dark
+/* btn 
+{
+    margin-left: 450px;
+} */
+
+.img1
+{
+    margin-left: 250px;
+    
+    height: 24px;
+    width: 24px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    margin-right: 50px;
+    margin-right: 50 px;
+}

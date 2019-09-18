@@ -1,0 +1,52 @@
+body{
+    background-image: url("000.jpeg");
+    /* background-color: black; */
+    background-size: cover;
+}
+
+h1{
+    color: gray;
+}
+
+.se
+{
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 250px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    height: 70%;
+
+    background-color:rgba(25,10,30,0.6);
+}
+
+.shadow-textarea textarea.form-control::placeholder {
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+
+.img1
+{
+    margin-left: 350px;
+}
+p
+{
+    color: whitesmoke;
+    margin-left: 25px;
+}
+
+.hi
+{
+    border-radius: 25px;
+    /* margin-left: 65px; */
+    opacity: 0.3;
+}
+
+.surv
+{
+    margin-left: 65px; 
+}
