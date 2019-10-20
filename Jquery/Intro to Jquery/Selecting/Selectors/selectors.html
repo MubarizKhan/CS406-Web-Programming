@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Selectors Exercise</title>
+        <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous">
+        </script>
+
+        
+
+
+    </head>
+
+    <body>
+        <div> Div 1</div>
+        <div class = "highlight">Div 2 </div>
+        <div id = "third"> Div 3</div>
+        <div class = "highlight"> Div 4</div>
+    </body>
+
+    <script type = "text/javascript">
+          
+
+        $("div").css("background", "purple");
+        $("div.highlight").css("width", "200px");
+        $("#third").css("border" , "2px solid red"); 
+        $("div:first-of-type").css("color", "pink");
+
+    </script>
+</html>
