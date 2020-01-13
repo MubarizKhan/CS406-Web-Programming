@@ -1,0 +1,10 @@
+Make a form that let's user Sign Up to a website. Only single page is required for this assignment.
+
+Upon clicking the submit button, make an AJAX call to check if the username is already in use. 
+If the user exists, notify the user. If the user does not exist, show the message "Welcome New User".
+
+Use DOM to notify user. For example you can append a paragraph right below the form.
+
+Store users info in database. 
+
+Upload .sql file too.

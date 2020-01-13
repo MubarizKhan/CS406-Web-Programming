@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 2</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script type="text/javascript" src="jquery.js"></script>
+
+	<script type="text/javascript">
+		
+		$(document).ready(function() 
+		{
+		$("button.c").click(function()
+		{
+		console.log(this.innerText);
+
+		if (this.innerText == "Hide Comments" ) 
+		{
+			this.innerText = "Show Comments";
+			$("p").hide();
+		}
+				
+		else if (this.innerText == "Show Comments" ) 
+		{
+			this.innerText = "Hide Comments";
+			$("p").show();
+		}
+			
+		});
+
+
+		$("button.cb").click(function()
+		{
+			console.log(this.innerText);
+			if (this.innerText == "Hide Comment Box" ) 
+			{
+				this.innerText = "Show Comment Box";
+				$("#c").hide();
+			}
+				
+			else if (this.innerText == "Show Comment Box" ) 
+			{
+				this.innerText = "Hide Comment Box";
+				$("#c").show();
+			}
+
+		});
+
+			
+		$("button.posting").click(function()
+		 {
+			console.log("posting");
+			var crav = $("#c")[0].value;
+			var drav = "<div> <p> "+crav+" </p> <button onclick='delCom(this)'> Delete </button></div>";
+			$("#ca")[0].innerHTML += drav;
+
+		});
+
+			
+		});
+
+		function delCom(obj) 
+		{
+			console.log("del pressed");
+			$(obj.parentElement).hide();
+		}
+
+	</script>
+</head>
+	<body>
+
+	<header>
+		<div class="container">
+			<nav class="navigation">
+				<ul>
+					<li><a href="#" class="title">My Pictures</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">My Profile</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div id='main'>
+		<div id='left'></div>
+		<div id='mainContent'>
+			<div class='jumbotron'>
+				<img src="santorini.jpg">
+				<br>
+				<button  class="c">Hide Comments</button>
+				<button  class="cb">Hide Comment Box</button>
+				<br>
+				<br>
+				<input id="c" type="text" name="comments" placeholder="Comment Here!"> 
+				<button class="posting"> Post</button>
+				<div id='ca'>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <button>Delete</button></p>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div id='right'></div>
+	</div>
+
+</body>
+</html>
